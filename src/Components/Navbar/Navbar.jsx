@@ -33,12 +33,7 @@ export function Navbar() {
           </ul>
         ) : (
           <button>
-            {" "}
-            <RxHamburgerMenu
-              size={24}
-              color="#fff"
-              style={{ background: "#ffbb33", border: "transparent" }}
-            />{" "}
+            <RxHamburgerMenu size={24} color="#fff" />
           </button>
         )}
       </div>
