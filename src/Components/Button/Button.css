@@ -1,0 +1,24 @@
+.button {
+  background-color: #d49877;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 40px;
+  border: none;
+  padding: 16px 32px;
+  gap: 1px;
+  transition: 0.4s;
+}
+
+.button:hover {
+  background-color: #b1704d;
+}
+
+.button a {
+  color: white;
+  text-decoration: none;
+}
+
+.button img {
+  background-color: transparent;
+}
