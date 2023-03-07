@@ -10,6 +10,18 @@ function App() {
       <Navbar />
       <Home />
       <Advantages />
+      <section id="gabriela-section">
+        <div class="gabriela container">
+          <h4>Conheça Gabriela Uliana</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo
+            aspernatur aliquam, corrupti voluptatem quibusdam suscipit placeat
+            corporis! Voluptatibus, placeat earum. Lorem ipsum dolor sit amet,
+            consectetur adipisicing elit. Ab, culpa? Sed nulla voluptates sunt
+            eligendi culpa reiciendis perspiciatis, natus sit.
+          </p>
+        </div>
+      </section>
       <Footer />
     </div>
   );
