@@ -4,7 +4,7 @@
   align-items: center;
   justify-content: center;
   width: 100%;
-  padding-top: 30px;
+  padding-top: 60px;
 }
 
 .initial-content {
@@ -55,7 +55,7 @@ h1 {
     flex-direction: row;
     align-items: center;
     width: 100%;
-    padding-top: 45px;
+    padding-top: 30px;
     justify-content: space-around;
     /* gap: 100px; */
     /* background-color: #f0852e; */

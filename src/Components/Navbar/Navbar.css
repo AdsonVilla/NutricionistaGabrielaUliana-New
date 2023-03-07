@@ -5,6 +5,9 @@ nav {
   align-items: center;
   justify-content: space-between;
   padding: 0.5rem 2rem;
+  position: fixed;
+  z-index: 2;
+  width: 100%;
 }
 
 .logo a {
@@ -28,4 +31,9 @@ nav {
   text-decoration: none;
   color: #fff;
   font-size: 20px;
+}
+
+.hamburger {
+  background-color: #ffbb33;
+  border: #ffbb33;
 }

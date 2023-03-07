@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
-import { RxHamburgerMenu } from "react-icons/rx";
+// import { RxTextAlignJustify } from "react-icons/rx";
+import { DropdownMenu } from "../DropdownMenu/DropdownMenu";
 import "./Navbar.css";
 
 export function Navbar() {
@@ -32,9 +33,7 @@ export function Navbar() {
             </li>
           </ul>
         ) : (
-          <button>
-            <RxHamburgerMenu size={24} color="#fff" />
-          </button>
+          <DropdownMenu />
         )}
       </div>
     </nav>
