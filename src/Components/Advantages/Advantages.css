@@ -1,9 +1,21 @@
+.advantages-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 .advantages {
   background-color: #f1d6c7;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  gap: 15px;
+  width: 90%;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin-top: 0px;
 }
 
 .advantage {
@@ -22,4 +34,22 @@
 .advantages .advantage h3,
 p {
   color: #2f3954;
+}
+
+@media (min-width: 809px) {
+  .advantages {
+    background-color: #f1d6c7;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+  .advantages .advantage:nth-of-type(2) {
+    border-left: 1px solid #d49877;
+    border-right: 1px solid #d49877;
+  }
+  .advantage {
+    padding: 10px;
+  }
 }
