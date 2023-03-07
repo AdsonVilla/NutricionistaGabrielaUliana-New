@@ -22,13 +22,13 @@ export function Navbar() {
         {width > 540 ? (
           <ul className="sections-list">
             <li className="list-item">
-              <a href="#">Sobre</a>
+              <a href="#gabriela-section">Sobre</a>
             </li>
             <li className="list-item">
               <a href="#">Dúvidas</a>
             </li>
             <li className="list-item">
-              <a href="#">Contato</a>
+              <a href="#contact">Contato</a>
             </li>
           </ul>
         ) : (
