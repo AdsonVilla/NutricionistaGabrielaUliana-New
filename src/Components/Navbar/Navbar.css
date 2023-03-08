@@ -16,6 +16,30 @@ nav {
   font-size: 28px;
 }
 
+.no-content {
+  display: none;
+}
+
+.nav-content-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-content-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.aria-menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 .sections-list {
   display: flex;
   flex-direction: row;

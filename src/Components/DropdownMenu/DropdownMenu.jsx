@@ -15,17 +15,22 @@ export function DropdownMenu() {
         <CgMenu size={24} color="#fff" className="hamburger" />
       </button>
       {isOpen && (
-        <ul>
-          <li>
-            <a href="#gabriela-section">Sobre</a>
-          </li>
-          <li>
-            <a href="#doubts">Dúvidas</a>
-          </li>
-          <li>
-            <a href="#contact">Contato</a>
-          </li>
-        </ul>
+        <div className="aria-menu">
+          {/* <div className="logo">
+            <a href="#">Gabriela Uliana</a>
+          </div> */}
+          <ul>
+            <li>
+              <a href="#gabriela-section">Sobre</a>
+            </li>
+            <li>
+              <a href="#doubts">Dúvidas</a>
+            </li>
+            <li>
+              <a href="#contact">Contato</a>
+            </li>
+          </ul>
+        </div>
       )}
     </div>
   );
