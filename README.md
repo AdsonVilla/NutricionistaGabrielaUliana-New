@@ -1,5 +1,5 @@
 # NutricionistaGabrielaUliana-New
-Criação de um site para uma nutricionista, contendo informações profissionais, dúvidas frequentes e contatos.
+Criação de um site novo para uma nutricionista, com tecnologias mais avançadas, contendo informações profissionais, dúvidas frequentes e contatos.
 
 ## Tecnologias
 - Vite
