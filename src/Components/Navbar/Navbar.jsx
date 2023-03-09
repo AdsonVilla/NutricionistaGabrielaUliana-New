@@ -16,27 +16,25 @@ export function Navbar() {
 
   return (
     <nav className="navbar">
-      <div className={width > 540 ? "nav-content-column" : "nav-content-row"}>
-        <div className="logo">
-          <a href="#">Gabriela Uliana</a>
-        </div>
-        <div className="sections">
-          {width > 540 ? (
-            <ul className="sections-list">
-              <li className="list-item">
-                <a href="#gabriela-section">Sobre</a>
-              </li>
-              <li className="list-item">
-                <a href="#">Dúvidas</a>
-              </li>
-              <li className="list-item">
-                <a href="#contact">Contato</a>
-              </li>
-            </ul>
-          ) : (
-            <DropdownMenu />
-          )}
-        </div>
+      <div className="logo">
+        <a href="#">Gabriela Uliana</a>
+      </div>
+      <div className="sections">
+        {width > 540 ? (
+          <ul className="sections-list">
+            <li className="list-item">
+              <a href="#gabriela-section">Sobre</a>
+            </li>
+            <li className="list-item">
+              <a href="#">Dúvidas</a>
+            </li>
+            <li className="list-item">
+              <a href="#contact">Contato</a>
+            </li>
+          </ul>
+        ) : (
+          <DropdownMenu />
+        )}
       </div>
     </nav>
   );
