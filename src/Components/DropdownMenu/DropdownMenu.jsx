@@ -20,21 +20,18 @@ export function DropdownMenu() {
       )}
       {isOpen && (
         <div className="aria-menu">
-          {/* <div className="logo">
-            <a href="#">Gabriela Uliana</a>
-          </div> */}
-          <ul>
-            <li>
+          <ul className="list-items">
+            <li className="item">
               <a href="#gabriela-section" onClick={toggleDropdown}>
                 Sobre
               </a>
             </li>
-            <li>
+            <li className="item">
               <a href="#doubts" onClick={toggleDropdown}>
                 Dúvidas
               </a>
             </li>
-            <li>
+            <li className="item">
               <a href="#contact" onClick={toggleDropdown}>
                 Contato
               </a>

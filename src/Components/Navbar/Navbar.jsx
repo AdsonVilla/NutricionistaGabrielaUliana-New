@@ -1,5 +1,4 @@
 import { useState, useEffect } from "react";
-// import { RxTextAlignJustify } from "react-icons/rx";
 import { DropdownMenu } from "../DropdownMenu/DropdownMenu";
 import "./Navbar.css";
 
@@ -19,6 +18,7 @@ export function Navbar() {
       <div className="logo">
         <a href="#">Gabriela Uliana</a>
       </div>
+
       <div className="sections">
         {width > 540 ? (
           <ul className="sections-list">

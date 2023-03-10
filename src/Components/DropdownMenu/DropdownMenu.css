@@ -1,3 +1,8 @@
+.hamburger {
+  background-color: #d49877;
+  border: #d49877;
+}
+
 .aria-menu {
   /* width: 40%; */
   /* background-color: #fff; */
@@ -18,4 +23,21 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+
+.list-items {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  align-items: center;
+}
+
+.item {
+  margin-right: 1rem;
+}
+
+.item a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
 }
