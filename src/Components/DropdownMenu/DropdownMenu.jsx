@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { CgMenu } from "react-icons/cg";
+import { RxCross2 } from "react-icons/rx";
 import "./DropdownMenu.css";
 
 export function DropdownMenu() {
@@ -11,11 +12,20 @@ export function DropdownMenu() {
     setShowButton(!showButton);
   }
 
+  //   function closeDropDown() {
+  //     setIsOpen(!isOpen);
+  //     setShowButton(!showButton);
+  //   }
+
   return (
     <div className="dropdown">
-      {showButton && (
+      {showButton ? (
         <button onClick={toggleDropdown}>
-          <CgMenu size={24} color="#fff" className="hamburger" />
+          <CgMenu size={28} color="#fff" className="hamburger" />
+        </button>
+      ) : (
+        <button onClick={toggleDropdown}>
+          <RxCross2 size={28} color="#fff" className="hamburger" />
         </button>
       )}
       {isOpen && (

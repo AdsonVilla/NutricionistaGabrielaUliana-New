@@ -1,3 +1,10 @@
+.dropdown {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
 .hamburger {
   background-color: #d49877;
   border: #d49877;
@@ -9,6 +16,7 @@
   height: 100vh;
   width: 100%;
   display: flex;
+  flex-direction: column;
   align-items: center;
 }
 
