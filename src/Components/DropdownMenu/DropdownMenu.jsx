@@ -12,11 +12,6 @@ export function DropdownMenu() {
     setShowButton(!showButton);
   }
 
-  //   function closeDropDown() {
-  //     setIsOpen(!isOpen);
-  //     setShowButton(!showButton);
-  //   }
-
   return (
     <div className="dropdown">
       {showButton ? (
